@@ -8,8 +8,10 @@ Welcome to Team 2423's documentation!
 
 Contents:
 
+.. _control-system:
+
 .. toctree::
    :maxdepth: 2
-   :glob:
+   :caption: 2016 Control System
 
-   *
+   programming-the-radio
