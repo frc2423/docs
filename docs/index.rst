@@ -15,3 +15,4 @@ Contents:
    :caption: 2016 Control System
 
    programming-the-radio
+   control-system-resources
