@@ -1,5 +1,5 @@
 ==================
-Setting up Eclipse
+Setting Up Eclipse
 ==================
 
 **Opening a file in the file manager or terminal/command line**
