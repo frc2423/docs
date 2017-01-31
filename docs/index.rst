@@ -16,3 +16,12 @@ Contents:
 
    programming-the-radio
    control-system-resources
+
+
+.. _programming-the-robot:
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Programming the Robot
+
+   setting-up-eclipse
