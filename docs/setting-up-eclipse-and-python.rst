@@ -1,0 +1,21 @@
+=============================
+Setting Up Eclipse and Python
+=============================
+**Download the Java SDK**
+
+You must have the Java SDK installed to use eclipse. Download it `here <http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html>`_. Choose the appropriate link under *Java SE Development Kit 8 Downloads*.
+
+
+**Download Eclipse and Python**
+
+Follow this guide to download the latest version of Eclipse and Python: `<http://www.mysamplecode.com/2012/10/python-tutorial-eclipse-pydev-plugin.html>`_
+
+This guide also takes you through setting up a Python project in Eclipse. When you get to step 3, you can access the Eclipse update manager in the menu under *Help > Install New Software...*.
+
+
+**Opening a file in the file manager or terminal/command line**
+
+Follow the instructions to download the StartExplorer_ eclipse plugin.
+
+
+.. _StartExplorer: http://basti1302.github.io/startexplorer/#screenshots
