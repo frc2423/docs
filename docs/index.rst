@@ -24,4 +24,4 @@ Contents:
    :maxdepth: 2
    :caption: Programming the Robot
 
-   setting-up-eclipse
+   setting-up-eclipse-and-python
