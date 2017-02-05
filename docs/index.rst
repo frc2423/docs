@@ -25,3 +25,4 @@ Contents:
    :caption: Programming the Robot
 
    setting-up-eclipse-and-python
+   setting-up-git
