@@ -26,3 +26,4 @@ Contents:
 
    setting-up-eclipse-and-python
    setting-up-git
+   deploying-robot-code
