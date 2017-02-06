@@ -23,7 +23,7 @@ Follow the instructions to download the StartExplorer_ eclipse plugin.
 
 **Download Robot Python Packages**
 
-After setting up Python types these commands inside the terminal/command prompt to get the Python packages required to write and deploy robot code.
+After setting up Python types these commands inside the terminal/command prompt to get the Python packages required to write and deploy robot code:
 
 .. code-block:: sh
 
