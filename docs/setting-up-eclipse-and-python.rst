@@ -25,14 +25,14 @@ Follow the instructions to download the StartExplorer_ eclipse plugin.
 
 After setting up Python types these commands inside the terminal/command prompt to get the Python packages required to write and deploy robot code.
 
-.. code-block::
+.. code-block:: sh
 
    $ pip3 install pyfrc
    $ pip3 install robotpy-ctre
 
 Bug fixes and other updates will be made to these packages, so at times you'll need to upgrade them:
 
-.. code-block::
+.. code-block:: sh
 
    $ pip3 install pyfrc --upgrade
    $ pip3 install robotpy-ctre --upgrade
