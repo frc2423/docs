@@ -63,6 +63,7 @@ To use network tables on an HTML page we must have web server and a webpage. Go 
 Navigate to the networktables folder in the terminal by typing:
 
 .. code-block:: sh
+
    $ cd networktables/
  
 To run the server enter this in the terminal:
