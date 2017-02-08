@@ -13,7 +13,7 @@ Type these commands in the terminal:
 
 .. code-block:: sh
 
-   $ pip3 intall pynetworktables
+   $ pip3 install pynetworktables
    $ pip3 install pynetworktables2js
 
 
