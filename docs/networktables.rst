@@ -57,8 +57,8 @@ To use network tables on an HTML page we must have web server and a webpage. Go 
 
 .. code-block:: sh
 
-   $ git checkout networktables_fun
    $ git pull
+   $ git checkout networktables_fun
    
 Navigate to the networktables folder in the terminal by typing:
 
