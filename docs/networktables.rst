@@ -72,7 +72,7 @@ To run the server enter this in the terminal:
 
    $ python3 tornado_server.py
    
-Now go to the browser and enter 127.0.0.1:8888 into the address bar. Open another tab and enter http://127.0.0.1:8888/example.html in the browser. These are the html pages in the networktables/www folder index.html and example.html. If you look in these files you will se we are including the Javascript version of NetworkTables:
+Now go to the browser and enter http://127.0.0.1:8888/ into the address bar. Open another tab and enter http://127.0.0.1:8888/example.html in the browser. These are the html pages in the networktables/www folder index.html and example.html. If you look in these files you will se we are including the Javascript version of NetworkTables:
 
 <script src="/networktables/networktables.js"></script>
 
