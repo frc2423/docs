@@ -60,3 +60,25 @@ To use network tables on an HTML page we must have web server and a webpage. Go 
    $ git checkout networktables_fun
    $ git pull
    
+Navigate to the networktables folder in the terminal by typing:
+
+.. code-block:: sh
+   $ cd networktables/
+ 
+To run the server enter this in the terminal:
+
+.. code-block:: sh
+
+   $ python3 tornado_server.py
+   
+Now go to the browser and enter 127.0.0.1:8888 into the address bar. Open another tab and enter http://127.0.0.1:8888/example.html in the browser. These are the html pages in the networktables/www folder index.html and example.html. If you look in these files you will se we are including the Javascript version of NetworkTables:
+
+<script src="/networktables/networktables.js"></script>
+
+Getting and putting values in the NetworkTables is a bit different in Javascript. You do not create a table but type in:
+
+.. code-block:: Javascript
+
+   NetworkTables.putValue('/table name/key', value);
+   NetworkTables.getValue('/table name/key', default_value);
+   
