@@ -29,3 +29,12 @@ Contents:
    setting-up-git
    deploying-robot-code
    networktables
+   
+
+.. _vision-processing:
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Vision Processing
+   
+   vision-google-doc
