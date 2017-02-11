@@ -16,6 +16,7 @@ Contents:
 
    programming-the-radio
    control-system-resources
+   update-talon-firmware
 
 
 .. _programming-the-robot:
