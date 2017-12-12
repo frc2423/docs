@@ -10,6 +10,18 @@ Git is kind of like a google doc for code. It allows multiple people to make cha
 
 `<https://git-scm.com/downloads>`_
 
+If you are using windows download git bash as well: `<https://git-for-windows.github.io/>`_
+
+**Connecting to github**
+
+You'll need to follow the steps in these links to push your code to the KwarQs repo:
+
+`<https://help.github.com/articles/checking-for-existing-ssh-keys/>`_
+`<https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/>`_
+`<https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/>`_
+
+Finally, go to our organization's github page and clone this year's repo to your computer: `<https://github.com/frc2423>`_
+
 
 
 
