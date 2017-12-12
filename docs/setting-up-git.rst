@@ -8,6 +8,7 @@ Git is kind of like a google doc for code. It allows multiple people to make cha
 
 **Download git**
 
+`<https://git-scm.com/downloads>`_
 
 
 
