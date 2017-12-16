@@ -17,7 +17,7 @@ Go to the terminal in the directory where you have your robot.py file. Type the 
 
 .. code-block:: sh
 
-   $ python robot.py deploy --builtin
+   $ python robot.py deploy --builtin --robot=10.24.23.2
 
 If you don't have a robot available you can run this command to simulate the robot code:
 
