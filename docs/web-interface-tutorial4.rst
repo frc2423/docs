@@ -47,7 +47,7 @@ Now the text is stored inside of the *text* variable. Let's use it to set the bu
 .. code-block:: javascript
   var text = $('button').text(text + text);
 
-Great! Now let's trigger this code everytime the button is clicked:
+Great! Now let's trigger this code every time the button is clicked:
 
 .. code-block:: javascript
   var text = $('button').text(text + text);

@@ -38,3 +38,15 @@ Contents:
    :caption: Vision Processing
    
    vision-google-doc
+
+
+.. _creating-a-web-interface:
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Creating a Web Interface
+
+   web-interface-tutorial1
+   web-interface-tutorial2
+   web-interface-tutorial3
+   web-interface-tutorial4
