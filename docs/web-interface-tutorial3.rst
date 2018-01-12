@@ -4,7 +4,7 @@ What is CSS?
 
 While HTML is used to define the content of a webpage CSS is used to determine how it's styled (how it looks). The default styles of a web page are really basic, and we'll have to add some CSS to spice it up a bit.
 
-=======================
+
 Creating a Stylesheet
 =======================
 
@@ -15,11 +15,13 @@ Stylesheets are files that contain CSS and are included inside HTML files. Let's
 To include the file in your page add this line to *head* element on your page:
 
 .. code-block:: html
+
   <link rel="stylesheet" type="text/css" href="/styles.css">
 
 To style a web page first we need some HTML:
 
 .. code-block:: html
+
   <p>I am a paragraph!</p>
   <p>I am another paragraph!</p>
   <button>I am a button!</button>
@@ -41,13 +43,13 @@ Refresh the web page and you should see this:
 
 *Definitely* not what we want. Let's jazz it up a bit.
 
-=======================
+
 What's in a stylesheet?
 =======================
 
 When styling elements on a page there are two things you need to know: selectors and properties. Selectors are used to target specific elements on a page. A selector's properties are the actual styles being applied. For example, if we wanted to make all buttons purple we would select only elements of type button, and we would set its background property to purple.
 
-=======================
+
 Selectors
 =======================
 
@@ -58,6 +60,7 @@ Here are a few common selectors:
 **checkbox**
 
 .. code-block:: css
+
   button {
     *properties go here...*
   }
@@ -67,6 +70,7 @@ Tag selectors apply to all elements with that tag. The above selector will apply
 **class selector**
 
 .. code-block:: css
+
   .big-button {
     *properties that make button large go here...*
   }
@@ -75,6 +79,7 @@ Tag selectors apply to all elements with that tag. The above selector will apply
   }
 
 .. code-block:: html
+
   <button class="big-button">I'M A REAL BIG BUTTON!</button>
   <button class="small-button">I'M A REAL SMALL BUTTON!</button>
 
@@ -83,6 +88,7 @@ If you had two buttons and you wanted to style them differently, you would have 
 **Combining selectors**
 
 .. code-block:: html
+
   <p class="big">I am a big paragraph</p>
   <p>I am another paragraph!</p
   <button class="big">I am a big button</button>
@@ -95,6 +101,7 @@ We could use a tag selector and select all buttons, but there is another button 
 The solution is to *combine* These selectors insto one:
 
 .. code-block:: css
+
   button.big {
     *properties go here*
   }
@@ -104,6 +111,7 @@ In the above we combined the selectors without separating them with a space. Sel
 In the HTML we added to the tutorial.html file we had a div that contained two buttons and two paragraphs. What if we wanted to style only these buttons, and not the buttons outside div. We can do this with this selector:
 
 .. code-block:: css
+
   div button {
     *properties go here*
   }
@@ -122,7 +130,8 @@ Here are a few common properties:
 **color**
 
 .. code-block:: css
-  button{
+
+  button {
     color: blue;
   }
 
@@ -131,8 +140,8 @@ This changes the font color of the button's text to blue.
 
 **background**
 
-
 .. code-block:: css
+
   button {
     background: green;
   }
@@ -143,7 +152,8 @@ This adds a green background to all buttons.
 **font-size**
 
 .. code-block:: css
-  button{
+
+  button {
     font-size: 24px;
   }
 
@@ -154,7 +164,8 @@ This changes the font-size for all buttons to 24px.
 **width and height**
 
 .. code-block:: css
-  button{
+
+  button {
     width: 200px;
     height: 100px;
   }
