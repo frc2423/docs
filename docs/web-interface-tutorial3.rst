@@ -12,6 +12,10 @@ Stylesheets are files that contain CSS and are included inside HTML files. Let's
 
 [image of new file]
 
+To include the file in your page add this line to *head* element on your page:
+
+.. code-block:: html
+  <link rel="stylesheet" type="text/css" href="/styles.css">
 
 To style a web page first we need some HTML:
 
@@ -122,14 +126,14 @@ Here are a few common properties:
     color: blue;
   }
 
-This changes the font color of the button text to blue.
+This changes the font color of the button's text to blue.
 
 
 **background**
 
 
 .. code-block:: css
-  button{
+  button {
     background: green;
   }
 
@@ -144,7 +148,7 @@ This adds a green background to all buttons.
   }
 
 
-This change the font size for buttons to 24px.
+This changes the font-size for all buttons to 24px.
 
 
 **width and height**
