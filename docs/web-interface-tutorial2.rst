@@ -20,6 +20,7 @@ For example, a web page's navigation menu is itself an HTML element thatcontains
 
 
 [screen5 image]
+
 .. image:: images/tutorial1/screen1.png
    :width: 40pt
 
