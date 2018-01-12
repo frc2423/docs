@@ -22,7 +22,7 @@ For example, a web page's navigation menu is itself an HTML element thatcontains
 [screen5 image]
 
 .. image:: images/tutorial1/screen5.png
-   :width: 40pt
+   :width: 25pt
 
 You can see the real HTML by right clicking the element to open the context menu and clicking inspect:
 
