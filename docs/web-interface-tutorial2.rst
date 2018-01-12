@@ -87,9 +87,10 @@ Element attributes
 How an element looks and behaves is determined by its attributes as well as its content. An attribute has two parts, its name and its value. The name of the attribute is followed by an equal sign and a value surrounded by quotes. For example:
 
 .. code-block:: html
+
   <a href="http://google.com">google!</a>
 
- This is a link element with the text *google!* that goes to the google homepage when you click on it. The address of the link is determined by the href attribute. href is the attribute name and the address is inside the quotes.
+This is a link element with the text *google!* that goes to the google homepage when you click on it. The address of the link is determined by the href attribute. href is the attribute name and the address is inside the quotes.
 
 
 Web page elements
@@ -100,6 +101,7 @@ Here are some elements that we'll be frequently using:
 **anchor (link)**
 
 .. code-block:: html
+
   <a href="www.team2423.org">KwaQ!</a>
 
 [image of a]
@@ -107,6 +109,7 @@ Here are some elements that we'll be frequently using:
 **paragraph**
 
 .. code-block:: html
+
   <p>This is a paragraph tag</p>
 
 A paragraph tag is a great way to display text. Each paragraph starts on a new line.
@@ -116,6 +119,7 @@ A paragraph tag is a great way to display text. Each paragraph starts on a new l
 **image**
 
 .. code-block:: html
+
   <img src="http://yababoon.com/wp-content/uploads/2012/02/mr-bean-is-back.jpg"/>
 
 This is used to display an image. The src attribute requires the address of the image. An image tag does not contain any content, so it does not have a closing tag. Notice how the opening tag ends with a */>*?
@@ -125,6 +129,7 @@ This is used to display an image. The src attribute requires the address of the 
 **button**
 
 .. code-block:: html
+
   <button>Click Me</button>
 
 [image of button]
@@ -133,6 +138,7 @@ This is used to display an image. The src attribute requires the address of the 
 **text input**
 
 .. code-block:: html
+
   <input type="text" value="type in text here"/>
 
 This is a text input field. Text inputs, checkboxes, and radio buttons all share the same tag (input) and use the type attribute to set what kind of input it is. Just like the <img/> element an input is self closing. The value of a text input determines what text is inside the input field. Typing in different text automatically changes its value.
@@ -143,6 +149,7 @@ This is a text input field. Text inputs, checkboxes, and radio buttons all share
 **checkbox**
 
 .. code-block:: html
+
   <input type="checkbox" checked="checked" /> Do you like robots?
 
 To select the checkbox by default add *checked="checked"*.
@@ -152,6 +159,7 @@ To select the checkbox by default add *checked="checked"*.
 **radio button**
 
 .. code-block:: html
+
   Do you like Robots?
   <input type="radio" name="robots" value="yes" /> Yes
   <input type="radio" name="robots" checked="checked" value="absolutely" /> Absolutely!!!!!
@@ -163,6 +171,7 @@ Radio buttons are like checkboxes, except that they come in groups and only one 
 **div**
 
 .. code-block:: html
+
   <div>
     <p>Here is a paragraph</p>
     <button>Here is a button</button>
