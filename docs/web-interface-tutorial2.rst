@@ -104,7 +104,7 @@ Here are some elements that we'll be frequently using:
 
   <a href="www.team2423.org">KwaQ!</a>
 
-[image of a]
+.. image:: images/tutorial1/anchor.png
 
 **paragraph**
 
@@ -114,7 +114,7 @@ Here are some elements that we'll be frequently using:
 
 A paragraph tag is a great way to display text. Each paragraph starts on a new line.
 
-[image of p]
+.. image:: images/tutorial1/paragraph.png
 
 **image**
 
@@ -124,7 +124,7 @@ A paragraph tag is a great way to display text. Each paragraph starts on a new l
 
 This is used to display an image. The src attribute requires the address of the image. An image tag does not contain any content, so it does not have a closing tag. Notice how the opening tag ends with a */>*?
 
-[image of image]
+.. image:: images/tutorial1/image.png
 
 **button**
 
@@ -132,7 +132,7 @@ This is used to display an image. The src attribute requires the address of the 
 
   <button>Click Me</button>
 
-[image of button]
+.. image:: images/tutorial1/button.png
 
 
 **text input**
@@ -144,7 +144,7 @@ This is used to display an image. The src attribute requires the address of the 
 This is a text input field. Text inputs, checkboxes, and radio buttons all share the same tag (input) and use the type attribute to set what kind of input it is. Just like the <img/> element an input is self closing. The value of a text input determines what text is inside the input field. Typing in different text automatically changes its value.
 
 
-[image of text input]
+.. image:: images/tutorial1/text_input.png
 
 **checkbox**
 
@@ -154,7 +154,7 @@ This is a text input field. Text inputs, checkboxes, and radio buttons all share
 
 To select the checkbox by default add *checked="checked"*.
 
-[image of checkbox]
+.. image:: images/tutorial1/checkbox.png
 
 **radio button**
 
@@ -166,7 +166,7 @@ To select the checkbox by default add *checked="checked"*.
 
 Radio buttons are like checkboxes, except that they come in groups and only one radio button from the group can be selected. In order to group radio buttons together they have to share a *name*. Notice how the radio inputs all have a name attribute and their values are all the same.
 
-[image of radio buttons]
+.. image:: images/tutorial1/radio_button.png
 
 **div**
 
