@@ -179,4 +179,6 @@ Radio buttons are like checkboxes, except that they come in groups and only one 
 
 Divs are used as containers for other elements. You can use them to create sections or components for your web page.
 
+.. image:: images/tutorial1/div.png
+
 
