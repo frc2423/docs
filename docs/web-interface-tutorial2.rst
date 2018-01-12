@@ -18,15 +18,13 @@ For example, a web page's navigation menu is itself an HTML element thatcontains
      </div>
    </nav>
 
-
-[screen5 image]
-
 .. image:: images/tutorial1/screen5.png
 
 You can see the real HTML by right clicking the element to open the context menu and clicking inspect:
 
-[screen6 image]
-[screen7 image]
+.. image:: images/tutorial1/screen6.png
+
+.. image:: images/tutorial1/screen7.png
 
 The actual HTML looks a lot more complex, but basic idea is the same.
 
