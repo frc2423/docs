@@ -7,6 +7,7 @@ Lets start by understanding how HTML works. HTML is the code that defines the co
 For example, a web page's navigation menu is itself an HTML element thatcontains an HTML element for each of its menu items. For example, the HTML for the about menu on the www.team2423.org website might look something like this:
 
 .. code-block:: html
+
    <nav>
      About
      <div class="submenu">
