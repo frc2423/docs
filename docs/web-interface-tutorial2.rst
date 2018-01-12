@@ -29,7 +29,6 @@ You can see the real HTML by right clicking the element to open the context menu
 
 The actual HTML looks a lot more complex, but basic idea is the same.
 
-===================================
 How do you create an HTML element?
 ===================================
 
