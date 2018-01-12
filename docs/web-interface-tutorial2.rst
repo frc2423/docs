@@ -166,7 +166,7 @@ To select the checkbox by default add *checked="checked"*.
 
 Radio buttons are like checkboxes, except that they come in groups and only one radio button from the group can be selected. In order to group radio buttons together they have to share a *name*. Notice how the radio inputs all have a name attribute and their values are all the same.
 
-.. image:: images/tutorial1/radio_button.png
+.. image:: images/tutorial1/radio_buttons.png
 
 **div**
 
