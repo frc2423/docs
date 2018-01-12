@@ -4,20 +4,18 @@ What is HTML
 
 Lets start by understanding how HTML works. HTML is the code that defines the content and structure of a web page. HTML is made up of elements (or tags) that make up the web page's components. HTML elements can contain content and other HTML elements.
 
- For example, a web page's navigation menu is itself an HTML element that
- contains an HTML element for each of its menu items. For example, the HTML for the about menu on the www.team2423.org website might look something like this:
+For example, a web page's navigation menu is itself an HTML element thatcontains an HTML element for each of its menu items. For example, the HTML for the about menu on the www.team2423.org website might look something like this:
 
- .. code-block:: html
-
-    <nav>
-      About
-      <div class="submenu">
-        <a href="/about/about-first">About FIRST</a>
-        <a href="/about/calendar">Calendar</a>
-        <a href="/about/contact-us">Contact Us</a>
-        <a href="/about/our-coaches-and-mentors">Our Coaches and Mentors</a>
-      </div>
-    </nav>
+.. code-block:: html
+   <nav>
+     About
+     <div class="submenu">
+       <a href="/about/about-first">About FIRST</a>
+       <a href="/about/calendar">Calendar</a>
+       <a href="/about/contact-us">Contact Us</a>
+       <a href="/about/our-coaches-and-mentors">Our Coaches and Mentors</a>
+     </div>
+   </nav>
 
 
 [screen5 image]
@@ -62,7 +60,6 @@ HTML inside other HTML elements looks like this:
 Elements that contain other elements are called **parents**, and the elements inside of them are called its **children**.
 
 
-=====================================
 What does a full web page look like?
 =====================================
 
@@ -83,7 +80,6 @@ The **html** element is the root of the entire page. Everything else is a child 
 
 The browser's visible content goes inside the **body** element. Everything from the logo and navigation menu at the top to the footer at the bottom is contained inside this element.
 
-=====================
 Element attributes
 =====================
 
@@ -95,8 +91,6 @@ How an element looks and behaves is determined by its attributes as well as its 
  This is a link element with the text *google!* that goes to the google homepage when you click on it. The address of the link is determined by the href attribute. href is the attribute name and the address is inside the quotes.
 
 
-
-=====================================
 Web page elements
 =====================================
 
