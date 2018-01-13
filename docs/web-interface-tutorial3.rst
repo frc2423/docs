@@ -59,8 +59,6 @@ Here are a few common selectors:
 
 **tag selector**
 
-**checkbox**
-
 .. code-block:: css
 
   button {
