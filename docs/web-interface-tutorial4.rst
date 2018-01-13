@@ -29,12 +29,25 @@ jQuery is similar to css in that it needs a selector to find the elements we wan
 .. code-block:: javascript
 
   $('selector goes here...')
+  
+Let's start by downloading jQuery. Go to https://jquery.com/download/ and click *Download the compressed, production jQuery 3.2.1*:
+
+.. image:: images/tutorial1/jquery_download_page.png
+
+Place the jQuery file in the */www/* folder next to your html, js, and css files and include it in your html file. Make sure to place the include **before** the tutorial.js include, as tutorial.js will depend on jQuery so jQuery needs to run first in order for tutorial.js to work properly.
+
+.. image:: images/tutorial1/jquery_file.png
+
+.. image:: images/tutorial1/jquery_file_included.png
+
 
 So if we wanted to select all buttons on the page we'd do this:
 
 .. code-block:: javascript
 
   $('button')
+  
+  
 
 So how do we know if our selector worked? We can check how many elements jQuery found with the *length* property:
 
