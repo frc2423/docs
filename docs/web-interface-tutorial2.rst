@@ -46,11 +46,13 @@ And the closing tag looks like this:
 Notice how the name of the tag (element) is the same for both? The only difference is that the closing tag has a **/** after the **<**. Together the opening and closing tag forms an HTML element:
 
  .. code-block:: html
+ 
   <element></element>
 
 HTML inside other HTML elements looks like this:
 
  .. code-block:: html
+ 
   <element>
     <element>Child 1</element>
     <element>Child 2</element>
