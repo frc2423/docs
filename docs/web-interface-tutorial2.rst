@@ -34,11 +34,13 @@ How do you create an HTML element?
 An html element has an opening and closing tag. The opening tag looks like this:
 
  .. code-block:: html
+ 
   <element>
 
 And the closing tag looks like this:
 
  .. code-block:: html
+ 
   </element>
 
 Notice how the name of the tag (element) is the same for both? The only difference is that the closing tag has a **/** after the **<**. Together the opening and closing tag forms an HTML element:
