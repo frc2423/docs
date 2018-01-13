@@ -50,3 +50,4 @@ Contents:
    web-interface-tutorial2
    web-interface-tutorial3
    web-interface-tutorial4
+   web-interface-tutorial5
