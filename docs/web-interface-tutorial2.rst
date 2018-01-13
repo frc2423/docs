@@ -94,7 +94,7 @@ How an element looks and behaves is determined by its attributes as well as its 
 
   <a href="http://google.com">google!</a>
 
-This is a link element with the text *google!* that goes to the google homepage when you click on it. The address of the link is determined by the href attribute. href is the attribute name and the address is inside the quotes.
+This is a link element with the text *google!* that goes to the google homepage when you click on it. The address of the link is determined by the href attribute. href is the attribute name and the value (the address) is inside the quotes.
 
 
 Web page elements
