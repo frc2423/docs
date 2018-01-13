@@ -47,7 +47,13 @@ So if we wanted to select all buttons on the page we'd do this:
 
   $('button')
   
-  
+Let's enter this code into the console in chrome! To do this Press Ctrl + Shift + J (Windows / Linux) or Cmd + Opt + J (Mac):
+
+.. image:: images/tutorial1/button_console.png
+
+When you enter the code above into the console, it should output a message that starts like this: *r.fn.init(4)*. Expand this message and you should see four buttons. Hovering over each will highlight the button in the actual web page:
+
+.. image:: images/tutorial1/button_console_highlight.png
 
 So how do we know if our selector worked? We can check how many elements jQuery found with the *length* property:
 
