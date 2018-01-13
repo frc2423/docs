@@ -83,7 +83,7 @@ Tag selectors apply to all elements with that tag. The above selector will apply
   <button class="big-button">I'M A REAL BIG BUTTON!</button>
   <button class="small-button">I'M A REAL SMALL BUTTON!</button>
 
-If you had two buttons and you wanted to style them differently, you would have trouble doing this with a tag selector. The solution is to add the *class* attribute to each element and give them different values. You can then style each one by taking the class, prepending it with a period.
+If you had two buttons and you wanted to style them differently, you would have trouble doing this with a tag selector. The solution is to add the *class* attribute to each element and give them different values. You can then select and style each one individually by taking the class and prepending it with a period.
 
 **Combining selectors**
 
