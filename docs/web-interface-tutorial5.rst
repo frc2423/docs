@@ -58,8 +58,9 @@ Add this script tag to your html page before the tutorial.js include:
 
 .. code-block:: html
 
-<script src="/networktables/networktables.js"></script>
+   <script src="/networktables/networktables.js"></script>
 
+.. image:: images/tutorial1/include_network_tables.png
 
 
 Getting and putting values in the NetworkTables is a bit different in Javascript. You do not create a table but type in:
