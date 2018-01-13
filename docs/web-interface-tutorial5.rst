@@ -69,3 +69,14 @@ Getting and putting values in the NetworkTables is a bit different in Javascript
 
    NetworkTables.putValue('/table name/key', value);
    NetworkTables.getValue('/table name/key', default_value);
+   
+To listen to changes in the table:
+
+.. code-block:: Javascript
+   NetworkTables.addGlobalListener(function(key, value, isNew){
+       // do something with the values as they change
+   }, true);
+
+   NetworkTables.addKeyListener(key, function(value, isNew){
+       // do something with the values as they change
+   }, true);
