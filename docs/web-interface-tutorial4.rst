@@ -18,7 +18,7 @@ To include the script in your page create a *script* tag and add it before the e
 
   <script src="/tutorial.js"></script>
   
-  .. image:: images/tutorial1/js_file_include.png
+.. image:: images/tutorial1/js_file_include.png
 
 
 jQuery
