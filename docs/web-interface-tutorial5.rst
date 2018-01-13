@@ -73,6 +73,7 @@ Getting and putting values in the NetworkTables is a bit different in Javascript
 To listen to changes in the table:
 
 .. code-block:: Javascript
+
    NetworkTables.addGlobalListener(function(key, value, isNew){
        // do something with the values as they change
    }, true);
