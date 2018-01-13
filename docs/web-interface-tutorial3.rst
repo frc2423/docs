@@ -10,13 +10,15 @@ Creating a Stylesheet
 
 Stylesheets are files that contain CSS and are included inside HTML files. Let's begin by creating a file called styles.css in the same folder as the tutorial.html file:
 
-[image of new file]
+.. image:: images/tutorial1/styles_file.png
 
 To include the file in your page add this line to *head* element on your page:
 
 .. code-block:: html
 
   <link rel="stylesheet" type="text/css" href="/styles.css">
+  
+.. image:: images/tutorial1/styles_link.png
 
 To style a web page first we need some HTML:
 
@@ -35,11 +37,11 @@ To style a web page first we need some HTML:
 
 Copy and paste this code inside the body tag of the tutorial.html page:
 
-[image of html inside file]
+.. image:: images/tutorial1/styles_html_example.png
 
 Refresh the web page and you should see this:
 
-[image of web page]
+.. image:: images/tutorial1/styles_html_example_preview.png
 
 *Definitely* not what we want. Let's jazz it up a bit.
 
