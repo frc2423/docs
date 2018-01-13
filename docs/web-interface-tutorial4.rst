@@ -10,11 +10,15 @@ Create the javascript file
 
 Just like our css file, we'll create a js file and include it in our page. Call it *tutorial.js* and put it in the same folder as your html and css files.
 
+.. image:: images/tutorial1/js_file.png
+
 To include the script in your page create a *script* tag and add it before the end of the body in your html page. The script tag will have a *src* attribute which tells it the location of the file:
 
 .. code-block:: html
 
   <script src="/tutorial.js"></script>
+  
+  .. image:: images/tutorial1/js_file_include.png
 
 
 jQuery
