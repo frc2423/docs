@@ -4,7 +4,7 @@ What is HTML
 
 Lets start by understanding how HTML works. HTML is the code that defines the content and structure of a web page. HTML is made up of elements (or tags) that make up the web page's components. HTML elements can contain content and other HTML elements.
 
-For example, a web page's navigation menu is itself an HTML element thatcontains an HTML element for each of its menu items. For example, the HTML for the about menu on the www.team2423.org website might look something like this:
+For example, a web page's navigation menu is itself an HTML element that contains an HTML element for each of its menu items. For example, the HTML for the about menu on the www.team2423.org website might look something like this:
 
 .. code-block:: html
 
