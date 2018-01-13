@@ -61,24 +61,21 @@ So how do we know if our selector worked? We can check how many elements jQuery 
 
   $('button').length
 
-Now that we've selected our buttons let's do something with them. Let's start by geting the text inside of the buttons:
-
+Enter this into the console. It should output *4*. Now that we've selected our buttons let's do something with them. Let's start by geting the text inside of the buttons:
 
 .. code-block:: javascript
 
   var text = $('button').text();
 
-Now the text is stored inside of the *text* variable. Let's use it to set the button's text:
+Now the text is stored inside of the *text* variable. If you enter this into the console it will conbine the text of all the elements you've selected. To get the text of just one button you have to select only one of the buttons. Now let's set the text of the buttons: 
 
 .. code-block:: javascript
 
-  var text = $('button').text(text + text);
-
-Great! Now let's trigger this code every time the button is clicked:
+  $('button').text('Some text here...');
+  
+Now the text of the buttons should all be the same! Let's add some code to our tutorial.js file. We're going to double the text inslude of a button whenever it is clicked. Add this code to the js file:
 
 .. code-block:: javascript
-
-  var text = $('button').text(text + text);
 
   $('button').on('click', function() {
     var text = $(this).text();
@@ -87,6 +84,11 @@ Great! Now let's trigger this code every time the button is clicked:
 
 In the above code we use the *on* function to handle an event on our selected elements. The first parameter the on function needs is the type of event, which is *click* in this case. THe second parameter needed is a function to run code when the event is triggered.
 
-Also notice how we  *$(this).text()* inside function instead of *$('button').text()* like we did before. That's because inside event handlers *$(this)* gives you the element that triggered the event. *$('button')* selects all buttons on the page, but we really just want to select the button that triggered the event in this case.
+Also notice how we use *$(this).text()* inside the function instead of *$('button').text()* like we did before. That's because inside event handlers *$(this)* gives you the element that triggered the event. *$('button')* would select all buttons on the page, but we really just want to select the button that triggered the event in this case.
 
-Now the button's text will double every time you click on it.
+Save the file and refresh the page. Now each button's text will double every time you click on it.
+
+
+.. image:: images/tutorial1/button_click_event.png
+
+.. image:: images/tutorial1/button_click_event_page.png
