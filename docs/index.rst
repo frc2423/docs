@@ -51,3 +51,11 @@ Contents:
    web-interface-tutorial3
    web-interface-tutorial4
    web-interface-tutorial5
+   
+.. _magicbot:
+
+.. toctree::
+   :maxdepth: 2
+   :caption: MagicBot
+
+   magicbot-intro
