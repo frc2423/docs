@@ -5,6 +5,7 @@ What is MagicBot?
 MagicBot is a framework that we'll be using to program our robot. Documentation can be found here:
 
 http://robotpy.readthedocs.io/en/stable/frameworks/magicbot.html
+
 http://robotpy-wpilib-utilities.readthedocs.io/en/latest/magicbot.html
 
 Examples
