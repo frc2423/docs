@@ -14,6 +14,7 @@ Contents:
    :maxdepth: 2
    :caption: 2016 Control System
 
+   setting-up-roborio
    programming-the-radio
    control-system-resources
    update-talon-firmware
