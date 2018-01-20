@@ -60,3 +60,4 @@ Contents:
    :caption: MagicBot
 
    magicbot-intro
+   programming-robot-components
