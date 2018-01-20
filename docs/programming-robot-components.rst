@@ -39,3 +39,5 @@ Information on component classes can be found in the documentation:
 - `wpilib.drive package <http://robotpy.readthedocs.io/projects/wpilib/en/latest/wpilib.drive.html>`_ (Tank drive, arcade drive, mecanum drive, etc)
 - `ctre package <http://robotpy.readthedocs.io/projects/ctre/en/latest/api.html>`_ (Contains the TalonSRX class we need to program motors)
 
+Here is the documentation for the TalonSRX class: http://robotpy.readthedocs.io/projects/ctre/en/latest/api.html#module-ctre.wpi_talonsrx
+
