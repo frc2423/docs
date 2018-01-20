@@ -41,3 +41,24 @@ Information on component classes can be found in the documentation:
 
 Here is the documentation for the TalonSRX class: http://robotpy.readthedocs.io/projects/ctre/en/latest/api.html#module-ctre.wpi_talonsrx
 
+.. image:: images/magicbot/talon_documentation.png
+
+Notice the class name here:
+
+.. image:: images/magicbot/talon_class.png
+
+In addition to telling you the class name, it also tells you the parameters it needs. In this case it only needs a device number. Some classes however have different options for parameters and addtional details if it isn't obvious what the parameters are for. The PIDController class is one example: http://robotpy.readthedocs.io/projects/wpilib/en/latest/wpilib/PIDController.html
+
+.. image:: images/magicbot/pid_controller_documentation.png
+
+Notice how the end of the parameter list in the class says *args, **kwargs*?
+
+.. image:: images/magicbot/pid_controller_class.png
+
+This basically means that there are different options for what you can put after the first 3 parameters *Kp, Ki and Kd*
+
+.. image:: images/magicbot/pid_controller_parameter_options.png
+
+A description for each parameters can be found below that:
+
+.. image:: images/magicbot/pid_controller_parameter_descriptions.png
