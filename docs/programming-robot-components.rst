@@ -35,6 +35,7 @@ For example, to create a motor you need to use the wpi_talonsrx.WPI_TalonSRX cla
   
 Information on component classes can be found in the documentation:
 
-- `wpilib package <http://robotpy.readthedocs.io/projects/wpilib/en/latest/wpilib.html/>`_ (most of the classes you need are found here)- - `wpilib.drive package <http://robotpy.readthedocs.io/projects/wpilib/en/latest/wpilib.drive.html/>`_ (Tank drive, arcade drive, mecanum drive, etc)
+- `wpilib package <http://robotpy.readthedocs.io/projects/wpilib/en/latest/wpilib.html/>`_ (most of the classes you need are found here) 
+- `wpilib.drive package <http://robotpy.readthedocs.io/projects/wpilib/en/latest/wpilib.drive.html/>`_ (Tank drive, arcade drive, mecanum drive, etc)
 - `ctre package <http://robotpy.readthedocs.io/projects/ctre/en/latest/api.html/>`_ (Contains the TalonSRX class we need to program motors)
 
