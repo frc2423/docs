@@ -26,7 +26,7 @@ Contents:
    :maxdepth: 2
    :caption: Preparing your computer
 
-   setting-up-eclipse-and-python
+   setting-up-python-and-pycharm
    setting-up-git
    
 .. _programming-the-robot:
