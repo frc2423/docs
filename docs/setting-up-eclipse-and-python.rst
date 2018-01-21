@@ -13,10 +13,10 @@ Download the free community edition of PyCharm here: https://www.jetbrains.com/p
 
 When PyCharm is downloaded and installed, you need to configure it to use the version of python you installed. *Go to PyCharm Community Edtion > Preferences...* and go to *Project: [project name]* > Project Interpreter:
 
-.. image:: images/tutorial1/pycharm_preferences.png
+.. image:: images/setting-up-your-computer/pycharm_preferences.png
 
-.. image:: images/tutorial1/pycharm_project_interpreter.png
+.. image:: images/setting-up-your-computer/pycharm_project_interpreter.png
 
 Then click the button to the right of the dropdown and click add local:
 
-.. image:: images/tutorial1/pycharm_add_local.png
+.. image:: images/setting-up-your-computer/pycharm_add_local.png
