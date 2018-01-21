@@ -24,11 +24,21 @@ Contents:
 
 .. toctree::
    :maxdepth: 2
-   :caption: Preparing your computer to write robot code
+   :caption: Preparing your computer
 
    setting-up-eclipse-and-python
    setting-up-git
    
+.. _programming-the-robot:
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Programming the Robot
+
+   magicbot-intro
+   programming-robot-components
+   deploying-robot-code
+   networktables
 
 .. _vision-processing:
 
@@ -51,13 +61,3 @@ Contents:
    web-interface-tutorial4
    web-interface-tutorial5
    
-.. _programming-the-robot:
-
-.. toctree::
-   :maxdepth: 2
-   :caption: Programming the Robot
-
-   magicbot-intro
-   programming-robot-components
-   deploying-robot-code
-   networktables
