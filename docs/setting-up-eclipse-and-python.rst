@@ -20,3 +20,5 @@ When PyCharm is downloaded and installed, you need to configure it to use the ve
 Then click the button to the right of the dropdown and click add local:
 
 .. image:: images/setting-up-your-computer/pycharm_add_local.png
+
+Locate python 3.6 and add it.
