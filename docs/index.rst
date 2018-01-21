@@ -20,16 +20,14 @@ Contents:
    update-talon-firmware
 
 
-.. _programming-the-robot:
+.. _preparing-your-computer:
 
 .. toctree::
    :maxdepth: 2
-   :caption: Programming the Robot
+   :caption: Preparing your computer to write robot code
 
    setting-up-eclipse-and-python
    setting-up-git
-   deploying-robot-code
-   networktables
    
 
 .. _vision-processing:
@@ -53,11 +51,13 @@ Contents:
    web-interface-tutorial4
    web-interface-tutorial5
    
-.. _magicbot:
+.. _programming-the-robot:
 
 .. toctree::
    :maxdepth: 2
-   :caption: MagicBot
+   :caption: Programming the Robot
 
    magicbot-intro
    programming-robot-components
+   deploying-robot-code
+   networktables
