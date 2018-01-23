@@ -5,7 +5,7 @@ The subsystems are the main parts of the robot. They include the drivetrain and 
 
 We'll create a *subsystem* folder next to the robot.py file and create a file for each subsystem inside that folder.
 
-[image of drivetrain.py file inside file explorer]
+.. image:: images/programming-subsystems/show_subsystem_files.png
 
 Here is some possible code for the *drivetrain* subsystem:
 
