@@ -6,7 +6,9 @@ Limelight is a really cool camera that let's us do vision processing without muc
 Resources
 =============
 Limelight site: https://limelightvision.io/
+
 Documentation: http://docs.limelightvision.io/en/latest/index.html
+
 chiefdelphi thread: https://www.chiefdelphi.com/forums/showthread.php?t=160832&highlight=limelight
 
 Programming the Limelight
