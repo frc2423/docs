@@ -19,9 +19,15 @@ Programming the Limelight
   from networktables import NetworkTables
 
   table = NetworkTables.getTable("limelight")
+  # Whether the limelight has any valid targets (0 or 1)
+  tv = table.getNumber('tv',None)
+  # Horizontal Offset From Crosshair To Target (-27 degrees to 27 degrees)
   tx = table.getNumber('tx',None)
+  # Vertical Offset From Crosshair To Target (-20.5 degrees to 20.5 degrees)
   ty = table.getNumber('ty',None)
+  # Target Area (0% of image to 100% of image)
   ta = table.getNumber('ta',None)
+  # Skew or rotation (-90 degrees to 0 degrees)
   ts = table.getNumber('ts',None)
   
 Limelight Dashboard
