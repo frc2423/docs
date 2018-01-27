@@ -40,7 +40,8 @@ Information on the vision target is in section 3.9 of the game manual
 
   Vision targets are located on the SWITCH FENCE using 2 in. (~5 cm) strips of 3M 8830 Scotchlite
   Reflective Material and are used to highlight the locations of the PLATES on the SWITCH.
-  Each vision target consists of two vertical, 16 in. (~41 cm) tall strips of reflective material, with a 4 in. (~10
+  
+  **Each vision target consists of two vertical, 16 in. (~41 cm) tall strips of reflective material, with a 4 in.** (~10
   cm) gap between them. Elements of the SWITCH obscure the top and bottom of the target, resulting in
   approximately 15.3 in. (~39 cm) of viewable height when viewed straight on. The center of each target is
   located 51 7/8” in. (~132 cm) from the center of the SWITCH.
