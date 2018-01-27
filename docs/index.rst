@@ -47,6 +47,7 @@ Contents:
    :caption: Vision Processing
    
    vision-google-doc
+   limelight
 
 
 .. _creating-a-web-interface:
