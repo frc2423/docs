@@ -29,4 +29,5 @@ Limelight Dashboard
 To create your vision "pipeline" you need to access the limelight dashboard. You need safari or internet explorer to view the dashboard.
 
 limelight dashboard: http://10.24.23.11:5801
+
 camera stream: http://10.24.23.11:5800
