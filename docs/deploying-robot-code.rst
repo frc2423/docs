@@ -18,7 +18,7 @@ Go to the terminal in the directory where you have your robot.py file. Type the 
 
 .. code-block:: sh
 
-   $ python robot.py deploy --robot=*IP address of robot*
+   $ python robot.py deploy --robot=[IP address of robot]
 
 The IP address should be either *10.24.23.2* or *roborio-2423-frc.local*. If you don't have a robot available you can run this command to simulate the robot code:
 
