@@ -32,6 +32,9 @@ website: https://www.codewars.com/
 
 These are games that will help you learn programming.
 
+Other lists: 
+- https://x-team.com/blog/coding-games/#robocode
+
 ### Zachtronics
 
 Zachtronics is a video game developer, known for engineering-oriented puzzle video games and programming games.
