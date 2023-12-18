@@ -4,6 +4,36 @@
 
 Romi course: https://github.com/czbeatty/FRC-Romi-Programming-Course
 
+## Things to learn to program FRC robots
+
+- Java
+  - variables and data types (numbers, strings, boolean, arrays)
+  - if statements
+  - loops (for and while)
+  - functions
+  - code organization (classes, packages)
+- WPILib tools and WPIlib vscode extension
+  - sim
+  - glass
+  - shuffleboard
+  - outlineviewer
+  - sysid
+  - datalog
+- other tools
+  - advantage scope (for debugging, data logging and visualizing robot state)
+  - pathplanner (for creating and visualizing paths and trajectories)
+  - choreo (for creating and visualizing swerve trajectories)
+  - frc web components (for creating dashboards)
+  - PhotonVision (for vision processing)
+- Robot topics
+  - command based programming
+  - vision processing (apriltags, reflective tape, object detection)
+  - PID controllers (profiled PID controllers as well)
+  - simulation
+  - debugging
+  - trajectory following and path planning
+  - robot interfaces (dashboards, controllers/joysticks, button boards, etc)
+
 ## Game manual resources
 
 ### FRCManual
